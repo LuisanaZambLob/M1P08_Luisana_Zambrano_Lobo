@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Paises, Continentes">
+<!--Cambiaremos el título a “Práctica 8”.-->
+    <title>Práctica 8</title>
+
+<!--Añadir a la tabla un borde-->
+<!--Usaremos etiquetas de estilo para hacer que nuestra tabla tenga Un ancho que sea el 80% de la pantalla
+Un borde de color,El texto de las celdas debe de estar centrado y le cambiaremos el tipo de letra, Los encabezados tendrán un tamaño de letra de 26 pixeles-->
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            font-size: 26px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        th, td {
+            border: 3px solid rgb(11, 11, 142);
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #0aebfb31;
+        }
+    </style>
+</head>
+<body>
+<table>
+<!--Añadir una fila más en la parte superior de la tabla que ocupe 3 celdas, donde pondremos “Continentes y sus países”..-->
+    <tr>
+        <th colspan="3" >Continentes y sus países</th>
+    </tr>
+    <tr>
+        <th>Europa</th>
+        <th>Asia</th>
+        <th>América</th>
+    </tr>
+    <tbody>
+    <tr>
+        <td>Alemania</td>
+        <td>Singapur</td>
+        <td>México</td>
+    </tr>
+    <tr>
+        <td>Suecia</td>
+        <td>Malasia</td>
+        <td>Venezuela</td>
+    </tr>
+    <tr>
+        <td>Belgica</td>
+        <td>Mongolia</td>
+        <td>Brasil</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
